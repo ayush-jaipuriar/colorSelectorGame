@@ -1,5 +1,9 @@
 body {
-    background-color: #232323;
+    background-color: white;
+    margin: 0;
+    font-family: 'Pacifico',
+        cursive;
+
 }
 
 .square {
@@ -16,8 +20,12 @@ body {
 }
 
 h1 {
-    color: blue;
+    background-color: steelblue;
+    color: black;
     text-align: center;
+    padding-top: auto;
+    margin: 0;
+    height: 80px;
 }
 
 #stripe {
@@ -30,4 +38,6 @@ h1 {
 
 #resetButton {
     height: 40px;
+    font-family: 'Pacifico',
+        cursive;
 }
