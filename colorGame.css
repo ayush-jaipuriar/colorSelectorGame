@@ -1,0 +1,33 @@
+body {
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#stripe {
+    background: white;
+    text-align: center;
+    height: 40px;
+    color: black;
+    font-size: medium;
+}
+
+#resetButton {
+    height: 40px;
+}
