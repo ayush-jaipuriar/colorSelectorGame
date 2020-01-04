@@ -14,7 +14,9 @@ resetButton.addEventListener("click", function() {
   for (var i = 0; i < squares.length; i++) {
     squares[i].style.backgroundColor = colors[i];
   }
-  h1.style.backgroundColor = "steelblue";
+  h1.style.backgroundColor = "coral";
+  stripe.style.backgroundColor = "coral";
+  messageDisplay.textContent = "";
 });
 
 for (var i = 0; i < squares.length; i++) {
@@ -35,6 +37,7 @@ function changeColor(color) {
   for (var i = 0; i < squares.length; i++) {
     squares[i].style.backgroundColor = correctColor;
     h1.style.backgroundColor = correctColor;
+    stripe.style.backgroundColor = correctColor;
   }
 }
 
